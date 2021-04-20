@@ -1,6 +1,7 @@
-# La Abeja Asesina 
+# La Abeja Asesina # 
+<img src="https://img2.freepng.es/20180423/ige/kisspng-beer-drinking-horn-honey-bee-bee-theme-5ade0efd2abfe8.4605114015245022691751.jpg" width="200" height="200">
 
-<img src="https://img2.freepng.es/20180423/ige/kisspng-beer-drinking-horn-honey-bee-bee-theme-5ade0efd2abfe8.4605114015245022691751.jpg">
+
 
 ### Integrantes
 - Solomon Nweke (Scrum Master) :wave:
@@ -9,7 +10,7 @@
 - Martín Madridejos :crossed_fingers:
 - Franco Calviño :call_me_hand:
 
-### Descripción(Palabras y emojis)
+### Descripción(con palabras y emojis)
 
 ### Demo
 
@@ -17,10 +18,10 @@
 
 
 ### Programas usados
-[Figma][webFigma]
-[Trello][webTrello]
-[Slack][webSlack]
-[Visual Studio Code][webVisual]
+- [Figma][webFigma]
+- [Trello][webTrello]
+- [Slack][webSlack]
+- [Visual Studio Code][webVisual]
 
 ### Problemas y elementos a destacar
 
