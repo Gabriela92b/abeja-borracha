@@ -1,2 +1,15 @@
 @import "./variables";
+@import "./header";
+@import "./main";
+@import "./responsive";
+
+.beer-background {
+        position: fixed; 
+        top: 0; 
+        left: 0; 
+        z-index: -1;
+        min-width: 100%;
+        min-height: 100%;
+    
+}
 
