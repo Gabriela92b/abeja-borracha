@@ -17,14 +17,14 @@ killButton.addEventListener('click', () => {
 function selectRandom() {
     randomName = listaCoders [Math.floor(Math.random() * listaCoders.length)]
     console.log(randomName)
+    document.getElementById('printName').innerHTML = randomName.nombre;
 }
 
 function killCoder() {
     for(let i=0; i < listaCoders.length; i++) {
         if (listaCoders [i] === randomName){
-            listaCoders.splice(i,1) 
+            listaCoders.splice(i,1)
         }
     }
+    document.getElementById('printName').innerHTML = '';
 }
-console.log(listaCoders)
-
