@@ -6,25 +6,40 @@ let randomName
 
 randomButton.addEventListener('click', () => {
     selectRandom() 
-    console.log(listaCoders)
+    
     })
 
 killButton.addEventListener('click', () => {
     killCoder()
-    console.log(listaCoders)
+    
     })
+
+
+function desplegarNombres () {
+    let templateHTML = ""
+    for(let i=0; i < listaCoders.length; i++) {
+    templateHTML += `<li>${listaCoders[i].nombre}</li>` 
+    console.log(listaCoders[i].nombre) 
+    }
+    document.getElementById("listaNombres").innerHTML = templateHTML;
+}
+
+            
 
 function selectRandom() {
     randomName = listaCoders [Math.floor(Math.random() * listaCoders.length)]
-    console.log(randomName)
+       
+    document.getElementById('printName').innerHTML = randomName.nombre;
 }
 
 function killCoder() {
     for(let i=0; i < listaCoders.length; i++) {
         if (listaCoders [i] === randomName){
-            listaCoders.splice(i,1) 
+            listaCoders.splice(i,1)
         }
     }
+    document.getElementById('printName').innerHTML = '';
+    desplegarNombres()
 }
-console.log(listaCoders)
 
+desplegarNombres()

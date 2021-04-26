@@ -1,84 +1,86 @@
 export const listaCoders = [
     {
-        nombre: "David Hermoso"
+        nombre: "David H 🍺"
+        
     },
     {
-        nombre: "Diego Gonzales"
+        nombre: "Diego G 🍺"
     },
     {
-        nombre: "Franco Calviño"
+        nombre: "Franco C 🍺"
     },
     {
-        nombre: "Sergio Corcuera"
+        nombre: "Sergio C 🍺"
     },
     {
-        nombre: "Alexandra Galarza"
+        nombre: "Alexandra G 🍺"
     },
     {
-        nombre: "David Sánchez"
+        nombre: "David S 🍺"
     },
     {
-        nombre: "Diego Córdoba"
+        nombre: "Diego C 🍺"
     },
     {
-        nombre: "Sergi Virgili"
+        nombre: "Sergi V 🍺"
     },
     {
-        nombre: "Abdulha Idress"
+        nombre: "Abdulha I 🍺"
     },
     {
-        nombre: "Anya Kholodenko"
+        nombre: "Anya K 🍺"
     },
     {
-        nombre: "Armando Mago"
+        nombre: "Armando M 🍺"
     },
     {
-        nombre: "Leah Calafell"
+        nombre: "Leah C 🍺"
     },
     {
-        nombre: "Andrés Patiño"
+        nombre: "Andrés P 🍺"
     },
     {
-        nombre: "Andrea Cevallos"
+        nombre: "Andrea C 🍺"
     },
     {
-        nombre: "Jose Miguel Quesada"
+        nombre: "Jose Miguel 🍺"
     },
     {
-        nombre: "Amr Hefny"
+        nombre: "Amr H 🍺"
     },
     {
-        nombre: "Jael Masllorens"
+        nombre: "Jael M 🍺"
     },
     {
-        nombre: "Thierno Sadialiou"
+        nombre: "Thierno S 🍺"
     },
     {
-        nombre: "Berta López"
+        nombre: "Berta L 🍺"
     },
     {
-        nombre: "Gabriela Baquerizo"
+        nombre: "Gabriela B 🍺"
     },
     {
-        nombre: "Nweke Solomon"
+        nombre: "Nweke S 🍺"
     },
     {
-        nombre: "Cris Mouta"
+        nombre: "Cris M 🍺"
     },
     {
-        nombre: "Snezhana Stefanova"
+        nombre: "Snezhana S 🍺"
     },
     {
-        nombre: "Andrea Suárez"
+        nombre: "Andrea S 🍺"
     },
     {
-        nombre: "Martín Madridejos"
+        nombre: "Martín M 🍺"
     },
     {
-        nombre: "Gabriela Piñeiro"
+        nombre: "Joan R 🍺"
     },
     {
-        nombre: "Joan Recordà"
+        nombre: "Gabriela P 🍺"
     },
+    
         
     ]
