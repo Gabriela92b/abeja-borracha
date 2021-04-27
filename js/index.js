@@ -4,6 +4,8 @@ let randomButton = document.getElementById("buttonRandom")
 let killButton = document.getElementById("buttonDrink")
 let randomName 
 let resetCoders = document.getElementById('buttonRestart')
+let rutaAbeja = document.getElementById('abeja')
+let audioAbeja = document.getElementById('sonidoAbeja')
 
 randomButton.addEventListener('click', () => {
     selectRandom() 
@@ -15,6 +17,10 @@ killButton.addEventListener('click', () => {
 
 resetCoders.addEventListener('click', () => {
     location.reload()
+})
+
+rutaAbeja.addEventListener('click', ()=>{
+    audioAbeja.play()
 })
 
 // DESPLEGAR NOMBRES
