@@ -17,3 +17,83 @@ body {
   min-height: 100%;
 
 }
+
+
+@media screen and (min-width: 1024px) {
+
+  .body {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .botones {
+    display: flex;
+    align-items: flex-start;
+    
+  }
+
+  .header {
+    display: flex;
+    align-items: flex-start;
+    
+    
+  }
+
+  .navbar {
+    border-radius: 10px;
+  }
+
+  .avispa {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  #listaNombres {
+    margin-top: 15px;
+    -moz-column-count: 2;
+    -moz-column-gap: 2px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 2px;
+    column-count: 2;
+    column-gap: 50px;
+    background-color: #ffaf3763;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+    border-spacing: 30px;
+}
+
+#listaNombres li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 30px;
+  }
+
+.logo-avispa {
+    width: 400px;
+    margin-top: -100px;
+  }
+
+
+  .botonReset {
+    width: 20px;
+    margin-left: 900px;
+  }
+
+
+  .select {
+    margin-right: 20px;
+  }
+
+}

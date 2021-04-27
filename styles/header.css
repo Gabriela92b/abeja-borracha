@@ -18,6 +18,7 @@
 .navbar li{
   text-decoration: none;
   margin-right: 30px;
+  width: 110px;
   
 }
 
@@ -25,8 +26,9 @@
   background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
   background-color:#ffb037;
   width: 100%;   
-  text-align: center;
-  height: 35px;
+  display: flex;
+  align-items: center;
+  height: 50px;
 }
 .navbar li:hover {
   background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
@@ -35,9 +37,7 @@
 }
 
   
-.logo-avispa {
-    width: 180px;
-  }
+
   
     
   
