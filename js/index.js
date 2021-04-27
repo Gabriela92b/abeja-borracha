@@ -3,6 +3,7 @@ import {listaCoders} from "./data.js"
 let randomButton = document.getElementById("buttonRandom")
 let killButton = document.getElementById("buttonDrink")
 let randomName 
+let resetCoders = document.getElementById('buttonRestart')
 
 randomButton.addEventListener('click', () => {
     selectRandom() 
@@ -12,15 +13,19 @@ killButton.addEventListener('click', () => {
     killCoder()
 })
 
+resetCoders.addEventListener('click', () => {
+    location.reload()
+})
+
 // DESPLEGAR NOMBRES
 
 function desplegarNombres () {
     let templateHTML = ""
     for(let i=0; i < listaCoders.length; i++) {
     templateHTML += `<li>${listaCoders[i].nombre}</li>` 
-    console.log(listaCoders[i].nombre) 
     }
     document.getElementById("listaNombres").innerHTML = templateHTML;
+    console.log(desplegarNombres)
 }
 
 //  SELECCIÓN RANDOM en button        
@@ -43,3 +48,6 @@ function killCoder() {
 }
 
 desplegarNombres()
+
+
+

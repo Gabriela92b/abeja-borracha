@@ -1,6 +1,6 @@
 export const listaCoders = [
     {
-        nombre: " 🍺David H. "
+        nombre: "🍺David H. "
         
     },
     {
