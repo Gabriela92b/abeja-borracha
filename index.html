@@ -20,33 +20,44 @@
     
     
     <header class="header">
-        
-        
-        <div> 
-            <img class="logo-tinchos" src="./img/avispa-lostinchos.png" alt="logo">
-        </div>
-        <div> 
-            <img class="logo-avispa" src="./img/avispa-dibujo.png" alt="logo">
-        </div>
+        <nav class="navbar">
+            <ul> 
+                
+                <li><a href></a>About Us</li>
+                <li><a href></a>How To Play</li>
+                <img src="/abejaAsesina/img/recargar.svg" id="buttonRestart"   class="botonReset">
+                               
+            </ul>
+
+        </nav>
+               
     </header>
 
     <main> 
+        <div>
+        <div class="avispa"> 
+            <img class="logo-avispa" src="./img/avispa-dibujo.png" alt="logo">
+        </div>
+        
         <section class="botones">
-              
             <div class="select-button"> 
                 <button id="buttonRandom" type="button" class="select">Select random</button>
                 <p id="printName" class='resultado'></p>
             </div>
-            <button id="buttonDrink" type="button" class="drink">Drink</button>
-
+            <button id="buttonDrink" type="button" class="drink">Drink beer</button>
+            <div class="footerButton">
+                
+            </div>
         </section>
+        </div>
+        <div>
         <ul id="listaNombres">
         </ul>
-    </main>
-    <footer>
-        <div class="footerButton">
-        <button id="buttonRestart"  type="button" class="botonReset" >Reset</button>
         </div>
+    </main>
+    
+    <footer>
+        
     </footer>
     <script type="module" src="./js/index.js"></script>
 </body>

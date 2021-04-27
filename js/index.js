@@ -25,7 +25,6 @@ function desplegarNombres () {
     templateHTML += `<li>${listaCoders[i].nombre}</li>` 
     }
     document.getElementById("listaNombres").innerHTML = templateHTML;
-    console.log(desplegarNombres)
 }
 
 //  SELECCIÓN RANDOM en button        
