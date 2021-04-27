@@ -1,0 +1,21 @@
+.header {
+    width: 360px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  
+.logo-tinchos {
+    width: 80px;
+    border-radius: 50px;
+    display: none;
+  }
+  
+.logo-avispa {
+    width: 180px;
+    margin-left: 100px;
+  }
