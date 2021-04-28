@@ -17,6 +17,18 @@ body {
   min-height: 100%;
 
 }
+.imgCervezaLlena {
+  width: 65px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+.footerButton{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
 
 /* Responsive */
 
@@ -88,4 +100,16 @@ body {
   transition: 0.1s;
 }
   
+}
+
+.imgCervezaLlena {
+  width: 80px;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+.footerButton{
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }

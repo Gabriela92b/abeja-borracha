@@ -14,15 +14,19 @@ let homePage = document.getElementById("principal")
 let main1 = document.getElementById("mainHome")
 let main2 = document.getElementById("mainAboutUs")
 let main3 = document.getElementById("mainPlay") 
+let beer1 = document.getElementById("cervezaLlena")
+let beer2 = document.getElementById("cervezaVacia")
 
 // Eventlistener
 
 randomButton.addEventListener('click', () => {
     selectRandom() 
+    cambioImagen2()
 })
 
 killButton.addEventListener('click', () => {
-    killCoder()
+    killCoder();
+    cambioImagen()
 })
 
 resetCoders.addEventListener('click', () => {
@@ -58,6 +62,7 @@ function selectRandom() {
     randomName = listaCoders [Math.floor(Math.random() * listaCoders.length)]
     document.getElementById('printName').innerHTML = randomName.nombre;
 }
+
 
 // Función: quitar al nombre de la lista
 
@@ -104,5 +109,23 @@ function paginaHome() {
     }
     if (main3.style.display == "block") {
         (main3.style.display = "none")
+    }
+}
+
+function cambioImagen(){
+    if (beer1.style.display == "block") {
+        (beer1.style.display = "none")
+    }
+    if (beer2.style.display == "none") {
+        (beer2.style.display = "block")
+    }
+}
+
+function cambioImagen2() {
+    if (beer2.style.display == "block") {
+        (beer2.style.display = "none")
+    }
+    if (beer1.style.display == "none") {
+        (beer1.style.display = "block")
     }
 }
