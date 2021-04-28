@@ -1,5 +1,5 @@
 # La abeja borracha # :beers:
-<img src=".\img\avisa-lostinchos.png" width="200" height="200">
+<img src=".\img\avispa-lostinchos.png" width="200" height="200">
 
 
 ### Descripción
