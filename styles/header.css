@@ -5,8 +5,7 @@
   flex-direction: column;
   align-items: center;
   font-family: 'Open Sans', sans-serif;
-  
-}
+  }
 
 .navbar {
   background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
@@ -25,8 +24,6 @@
   cursor: pointer;
   font-size: 15px;
   font-weight: bold;
-  
-  
 }
 
 .navbar li{
@@ -38,14 +35,10 @@
 
 
 .navbar li:hover {
-  
-  font-size: 18px;
+  padding: 6px 6px 6px 6px;
+  background-color:#c5bdb05b;
   transition: 0.5s;
-  height: 20px;
-
 }
-
-
 
 .botonReset {
   width: 20px;

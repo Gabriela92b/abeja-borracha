@@ -1,11 +1,15 @@
 import {listaCoders} from "./data.js"
 
+// Variables 
+
 let randomButton = document.getElementById("buttonRandom")
 let killButton = document.getElementById("buttonDrink")
 let randomName 
 let resetCoders = document.getElementById('buttonRestart')
 let rutaAbeja = document.getElementById('abeja')
 let audioAbeja = document.getElementById('sonidoAbeja')
+
+// Eventlistener
 
 randomButton.addEventListener('click', () => {
     selectRandom() 
@@ -23,7 +27,7 @@ rutaAbeja.addEventListener('click', ()=>{
     audioAbeja.play()
 })
 
-// DESPLEGAR NOMBRES
+// Función: desplegar nombres
 
 function desplegarNombres () {
     let templateHTML = ""
@@ -33,14 +37,14 @@ function desplegarNombres () {
     document.getElementById("listaNombres").innerHTML = templateHTML;
 }
 
-//  SELECCIÓN RANDOM en button        
+//  Función: selección random de nombres         
 
 function selectRandom() {
     randomName = listaCoders [Math.floor(Math.random() * listaCoders.length)]
     document.getElementById('printName').innerHTML = randomName.nombre;
 }
 
-// Matar al coder, quitarlo de la lista
+// Función: quitar al nombre de la lista
 
 function killCoder() {
     for(let i=0; i < listaCoders.length; i++) {

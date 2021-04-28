@@ -2,7 +2,6 @@
 @import url(./header.css);
 @import url(./main.css);
 
-
 body {
   margin-right: 20px;
   margin-left: 20px;
@@ -19,6 +18,7 @@ body {
 
 }
 
+/* Responsive */
 
 @media screen and (min-width: 1024px) {
 
@@ -36,8 +36,6 @@ body {
   .header {
     display: flex;
     align-items: flex-start;
-    
-    
   }
 
   .navbar {
@@ -50,18 +48,16 @@ body {
     justify-content: flex-start;
   }
 
+  .logo-avispa {
+    width: 400px;
+    cursor: pointer;
+  }
   
-main {
+  main {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content:space-around;
-    
-  }
-
-.logo-avispa {
-    width: 400px;
-    margin-top: px;
   }
 
 
@@ -84,6 +80,6 @@ main {
 #listaNombres li:hover {
   color: #ffb037;
   transition: 0.1s;
-   }
+}
   
 }
