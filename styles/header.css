@@ -12,9 +12,10 @@
   background-color:#ffb037;
   width: 100%;   
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   height: 50px;
+ 
 }
 
 .navbar ul {
@@ -29,6 +30,7 @@
 .navbar li{
   text-decoration: none;
   margin-right: 20px;
+  margin-left: 20px;
   width: auto;
   
 }

@@ -5,7 +5,7 @@ main {
 }
 
 .botones {
-  height: 140px;
+  height: 130px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
