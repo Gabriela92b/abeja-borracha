@@ -78,6 +78,8 @@ function killCoder() {
 
 desplegarNombres()
 
+// Funciones cambio de página
+
 function paginaAboutUs() {
     if (main1.style.display == "block") {
         (main1.style.display = "none")
@@ -112,6 +114,8 @@ function paginaHome() {
     }
 }
 
+// funciones cambio página
+
 function cambioImagen(){
     if (beer1.style.display == "block") {
         (beer1.style.display = "none")
@@ -129,3 +133,17 @@ function cambioImagen2() {
         (beer1.style.display = "block")
     }
 }
+
+
+function coderNuevo() {
+    let nuevoCoder = document.querySelector('#añadirCoder').value;
+    let nuevaLista = listaCoders.slice();
+    listaCoders.push(nuevoCoder);
+    if (nuevaLista.length < listaCoders.length) {
+        desplegarNombres(nuevaLista.length);
+    }
+    
+}
+
+let añadirCoder1 = document.querySelector('#botonAñadirCoder');
+añadirCoder1.addEventListener('click', coderNuevo);
