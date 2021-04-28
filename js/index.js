@@ -8,6 +8,12 @@ let randomName
 let resetCoders = document.getElementById('buttonRestart')
 let rutaAbeja = document.getElementById('abeja')
 let audioAbeja = document.getElementById('sonidoAbeja')
+let usAbout = document.getElementById("sobreNosotros")
+let play = document.getElementById("comoJugar")
+let homePage = document.getElementById("principal")
+let main1 = document.getElementById("mainHome")
+let main2 = document.getElementById("mainAboutUs")
+let main3 = document.getElementById("mainPlay") 
 
 // Eventlistener
 
@@ -27,6 +33,15 @@ rutaAbeja.addEventListener('click', ()=>{
     audioAbeja.play()
 })
 
+usAbout.addEventListener('click', () =>{
+    paginaAboutUs()
+})
+play.addEventListener('click', ()=>{
+    paginaHowToPlay()
+})
+homePage.addEventListener('click', ()=>{
+    paginaHome()
+})
 // Función: desplegar nombres
 
 function desplegarNombres () {
@@ -58,5 +73,36 @@ function killCoder() {
 
 desplegarNombres()
 
-
-
+function paginaAboutUs() {
+    if (main1.style.display == "block") {
+        (main1.style.display = "none")
+    }
+    if (main2.style.display == "none") {
+        (main2.style.display = "block")
+    }
+    if (main3.style.display == "block") {
+        (main3.style.display = "none")
+    }
+}
+function paginaHowToPlay() {
+    if (main1.style.display == "block") {
+        (main1.style.display = "none")
+    }
+    if (main3.style.display == "none") {
+        (main3.style.display = "block")
+    }
+    if (main2.style.display == "block") {
+        (main2.style.display = "none")
+    }
+}
+function paginaHome() {
+    if (main2.style.display == "block") {
+        (main2.style.display = "none")
+    }
+    if (main1.style.display == "none") {
+        (main1.style.display = "block")
+    }
+    if (main3.style.display == "block") {
+        (main3.style.display = "none")
+    }
+}

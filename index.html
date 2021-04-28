@@ -20,14 +20,15 @@
     <header class="header">
         <nav class="navbar">
             <ul> 
-                <li><a href></a>About Us</li>
-                <li><a href></a>How To Play</li>
+                <li id="principal">Home</li>
+                <li id="sobreNosotros">About Us</li>
+                <li id="comoJugar">How To Play</li>
                 <img src="/abejaAsesina/img/recargar.svg" id="buttonRestart"   class="botonReset">
             </ul>
         </nav>
     </header>
-
-    <main> 
+    
+    <main id="mainHome" style="display: block;"> 
         <div>
             <div class="avispa"> 
                 <img id="abeja" class="logo-avispa" src="./img/avispa-dibujo.png" alt="logo">
@@ -49,6 +50,13 @@
             <ul id="listaNombres"></ul>
         </div>
     </main>
+    <main id="mainAboutUs" style="display: none;">
+        <h2>voneovneovi</h2>
+    </main>
+    <main id="mainPlay" style="display: none;">
+        <h2>kbpebneobngrt</h2>
+    </main>
+
         
     <script type="module" src="./js/index.js"></script>
 </body>
