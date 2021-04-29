@@ -51,7 +51,7 @@ homePage.addEventListener('click', ()=>{
 function desplegarNombres () {
     let templateHTML = ""
     for(let i=0; i < listaCoders.length; i++) {
-    templateHTML += `<li>${listaCoders[i].nombre}</li>` 
+    templateHTML += `<li>🍺${listaCoders[i].nombre}</li>` 
     }
     document.getElementById("listaNombres").innerHTML = templateHTML;
 }
@@ -149,4 +149,7 @@ function coderNuevo() {
     
     
 }
+
+
+
 

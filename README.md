@@ -29,17 +29,21 @@ The game is set on the topic of bees, so honey and beehives are all around, and,
 
 
 ### Programmes
-- [Figma][webFigma]: prototipado
-- [Trello][webTrello]: lista de tareas
-- [Slack][webSlack]: información relevante
-- [Visual Studio Code][webVisual]: editor de código
-- [Zoom][webZoom]: comunicación
+- [Figma][webFigma]: Prototyping.
+- [Trello][webTrello]: Task table.
+- [Slack][webSlack]: information and comunication.
+- [Visual Studio Code][webVisual]: Code editor.
+- [Zoom][webZoom]: Comunication and share screen.
 
 ### Demo
 
-### Problemas y elementos a destacar
+### Elements to highlight and Problems
+- When we had the first sprint we felt that we did not advance much but after talking about it, we agreed and the second half we worked much better and we advanced while we learned.
+- It took us a lot to come up with a final prototype and we made a lot of changes along the way.
+- We wanted to add the styles with SCSS and we tried it at the beginning but since we didn't have much time at the end we decided to finish the project in CSS.
+- We are happy with our final project. We have learned a lot by helping each other and coding together.
 
-### Descripción técnica 
+### technical description
 
 
 <!-- links -->
