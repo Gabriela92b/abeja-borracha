@@ -28,6 +28,7 @@ randomButton.addEventListener('click', () => {
 killButton.addEventListener('click', () => {
     killCoder();
     cambioImagen()
+    audioimortal.play()
 })
 
 resetCoders.addEventListener('click', () => {
@@ -136,16 +137,28 @@ function cambioImagen2() {
 }
 
 // funcion añadir coder
+const añadirCoder = document.getElementById("botonAñadirCoder");
+añadirCoder.addEventListener('click', () => {
+    coderNuevo()
+})
 
-let añadirCoder = document.getElementById("botonCoder");
-añadirCoder.onclick = getInputValue
+desplegarNombres();
 
+<<<<<<< HEAD
+function coderNuevo() {
+    const nuevoCoder = document.getElementById("añadirCoder").value;
+    listaCoders.push(nuevoCoder);
+
+    
+    
+=======
 function getInputValue () {
     let inputValue = document.getElementById("addCoder").value
     if( inputValue != ""){
     listaCoders.push({nombre: inputValue})
     desplegarNombres()
     }
+>>>>>>> f4d5f53d3c322b068eb38690300df907b9c2553c
 }
 
 
