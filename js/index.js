@@ -18,7 +18,6 @@ let beer1 = document.getElementById("cervezaLlena")
 let beer2 = document.getElementById("cervezaVacia")
 let audioimortal = document.getElementById("soundImortal")
 
-
 // Eventlistener
 
 randomButton.addEventListener('click', () => {
@@ -32,7 +31,7 @@ killButton.addEventListener('click', () => {
     audioimortal.play()
 })
 
-resetCoders.addEventListener('click', () => {
+resetCoders.addEventListener('click', ()=>{
     location.reload()
 })
 
@@ -40,7 +39,7 @@ rutaAbeja.addEventListener('click', ()=>{
     audioAbeja.play()
 })
 
-usAbout.addEventListener('click', () =>{
+usAbout.addEventListener('click', ()=>{
     paginaAboutUs()
 })
 play.addEventListener('click', ()=>{
@@ -51,7 +50,7 @@ homePage.addEventListener('click', ()=>{
 })
 // Función: desplegar nombres
 
-function desplegarNombres () {
+function desplegarNombres() {
     let templateHTML = ""
     for(let i=0; i < listaCoders.length; i++) {
     templateHTML += `<li>🍺${listaCoders[i].nombre}</li>` 
@@ -66,7 +65,6 @@ function selectRandom() {
     document.getElementById('printName').innerHTML = randomName.nombre;
 }
 
-
 // Función: quitar al nombre de la lista
 
 function killCoder() {
@@ -78,7 +76,6 @@ function killCoder() {
     document.getElementById('printName').innerHTML = '';
     desplegarNombres()
 }
-
 desplegarNombres()
 
 // Funciones cambio de página
@@ -138,10 +135,11 @@ function cambioImagen2() {
 }
 
 // funcion añadir coder
+
 let añadirCoder = document.getElementById("botonCoder");
 añadirCoder.onclick = getInputValue
 
-function getInputValue () {
+function getInputValue() {
     let inputValue = document.getElementById("addCoder").value
     if( inputValue != ""){
     listaCoders.push({nombre: inputValue})
