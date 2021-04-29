@@ -138,21 +138,14 @@ function cambioImagen2() {
 }
 
 // funcion añadir coder
-const añadirCoder = document.getElementById("botonAñadirCoder");
-añadirCoder.addEventListener('click', () => {
-    coderNuevo()
-})
-
-desplegarNombres();
+let añadirCoder = document.getElementById("botonCoder");
+añadirCoder.onclick = getInputValue
 
 function getInputValue () {
     let inputValue = document.getElementById("addCoder").value
     if( inputValue != ""){
     listaCoders.push({nombre: inputValue})
     desplegarNombres()
-    }
 }
-
-
-
+}
 
