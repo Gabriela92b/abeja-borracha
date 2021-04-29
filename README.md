@@ -1,38 +1,34 @@
-# La abeja borracha # :beers:
+# The drunk bee:beers:
 <img src=".\img\avispa-lostinchos.png" width="200" height="200">
 
 
-### Descripción
+### Description
 
-La abeja borracha es una aplicación multiplataforma (apta para móviles, tablet y ordenadores) diseñada por el Los Tinchos que permite jugar a un sistema de selección de sacrificios.
+The Drunk Bee is a multiplatform application (suitable for mobile phones, tablets and computers) designed by Los Tinchos that allows you to play a sacrifice selection system.
 
-El juego está ambientando en la temática de las abejas, por lo que abunda la miel y las colmenas, y, por supuesto, el color amarillo.
+The game is set on the topic of bees, so honey and beehives are all around, and, of course, the color yellow.
 
-Para jugar, siga los siguientes pasos:
+1) We have a list of coders waiting a moment of glory. Moreover, any name can be added to the list through the button "Write a name".
 
-1) Se añade un nombre cualquiera (o una <i>abeja borracha</i>:honeybee: en nuestra terminología) en el formulario. 
+2) By pressing "Select random", one of the coders is randomly selected. 
 
-2) La <i>abeja borracha</i>:honeybee: es depositada en una ruleta de la fortuna. Se puede añadir hasta un total de 10 <i>abejas borrachas</i>:honeybee:. 
+3) Afterwards, by clicking the button "drink beer" button, the selected coder is automatically out of the list, and consequently the beer gets emptied. And, of course, ¡the selected coder has to drink!
 
-3) Al darle click al botón "beber cerveza", se selecciona aleatoriamente una de las <i>abejas borrachas</i>:honeybee: previamente añadidas y la cerveza:beers: automáticamente se vacía. La abeja se emborracha y pierde el juego. 
+4) Once the list is empty, you can click reset and restart the game. Enjoy!
 
-4) Dale al reset y reinicia al juego.
-
- 
-
-### Integrantes de los Tinchos
-- Solomon Nweke (Scrum Master) :wave:
-- Andrea Suárez :ok_hand:
-- Gabriela Baquerizo :v:
-- Martín Madridejos :crossed_fingers:
-- Franco Calviño :call_me_hand:
+### Members of los Tinchos
+- Solomon Nweke (Scrum Master) 
+- Andrea Suárez 
+- Gabriela Baquerizo 
+- Martín Madridejos 
+- Franco Calviño 
 
 
-### Tecnologías usadas
-<img src="https://img.icons8.com/color/48/000000/javascript.png"/><img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/><img src="https://img.icons8.com/color/48/000000/css3.png"/><img src="https://img.icons8.com/color/48/000000/sass.png"/><img src="https://img.icons8.com/fluent/48/000000/github.png"/>
+### Technologies
+<img src="https://img.icons8.com/color/48/000000/javascript.png"/><img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/><img src="https://img.icons8.com/color/48/000000/css3.png"/><img src="https://img.icons8.com/fluent/48/000000/github.png"/>
 
 
-### Programas usados
+### Programmes
 - [Figma][webFigma]: prototipado
 - [Trello][webTrello]: lista de tareas
 - [Slack][webSlack]: información relevante

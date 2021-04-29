@@ -134,16 +134,20 @@ function cambioImagen2() {
     }
 }
 
+// funcion añadir coder
+const añadirCoder = document.getElementById("botonAñadirCoder");
+añadirCoder.addEventListener('click', () => {
+    coderNuevo()
+})
+
 
 function coderNuevo() {
-    let nuevoCoder = document.querySelector('#añadirCoder').value;
-    let nuevaLista = listaCoders.slice();
+    const nuevoCoder = document.getElementById("añadirCoder").value;
+    const nuevaLista = listaCoders.slice();
     listaCoders.push(nuevoCoder);
+
     if (nuevaLista.length < listaCoders.length) {
-        desplegarNombres(nuevaLista.length);
+        desplegarNombres(nuevaLista);
     }
-    
 }
 
-let añadirCoder1 = document.querySelector('#botonAñadirCoder');
-añadirCoder1.addEventListener('click', coderNuevo);
