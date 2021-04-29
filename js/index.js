@@ -16,7 +16,7 @@ let main2 = document.getElementById("mainAboutUs")
 let main3 = document.getElementById("mainPlay") 
 let beer1 = document.getElementById("cervezaLlena")
 let beer2 = document.getElementById("cervezaVacia")
-
+let audioimortal = document.getElementById("soundImortal")
 // Eventlistener
 
 randomButton.addEventListener('click', () => {
@@ -27,6 +27,7 @@ randomButton.addEventListener('click', () => {
 killButton.addEventListener('click', () => {
     killCoder();
     cambioImagen()
+    audioimortal.play()
 })
 
 resetCoders.addEventListener('click', () => {
