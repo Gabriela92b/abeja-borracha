@@ -103,6 +103,15 @@
     margin-left: 50px;
     margin-bottom: 50px;
   }
+
+  .imgCervezaVacia {
+    width: 68px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 58px;
+    margin-bottom: 27px;
+  }
+
   .footerButton{
     justify-content: center;
     display: flex;
@@ -113,12 +122,4 @@
     margin: 90px;
     font-size: 60px;
   }
-  }
-
-  .imgCervezaVacia {
-    width: 60px;
-    height: 60px;
-    margin-top: 30px;
-    margin-left: 10px;
-    margin-bottom: 30px;
   }
