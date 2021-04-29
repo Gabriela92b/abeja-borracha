@@ -140,14 +140,13 @@ añadirCoder.addEventListener('click', () => {
     coderNuevo()
 })
 
+desplegarNombres();
 
 function coderNuevo() {
     const nuevoCoder = document.getElementById("añadirCoder").value;
-    const nuevaLista = listaCoders.slice();
     listaCoders.push(nuevoCoder);
 
-    if (nuevaLista.length < listaCoders.length) {
-        desplegarNombres(nuevaLista);
-    }
+    
+    
 }
 
