@@ -17,6 +17,7 @@ let main3 = document.getElementById("mainPlay")
 let beer1 = document.getElementById("cervezaLlena")
 let beer2 = document.getElementById("cervezaVacia")
 let audioimortal = document.getElementById("soundImortal")
+let emptyList = document.getElementById("buttonEmpty")
 
 // Eventlistener
 
@@ -33,6 +34,10 @@ killButton.addEventListener('click', () => {
 
 resetCoders.addEventListener('click', ()=>{
     location.reload()
+})
+
+emptyList.addEventListener('click', ()=>{
+    eraseList()
 })
 
 rutaAbeja.addEventListener('click', ()=>{
@@ -147,3 +152,9 @@ function getInputValue() {
 }
 }
 
+// funcion vaciar lista
+
+function eraseList() {
+    listaCoders.length = 0;
+    desplegarNombres()
+}
