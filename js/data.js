@@ -1,84 +1,84 @@
 export const listaCoders = [
     {
-        nombre: "🍺David H. "
+        nombre: "David H. "
     },
     {
-        nombre: "🍺Diego G. "
+        nombre: "Diego G. "
     },
     {
-        nombre: "🍺Franco C. "
+        nombre: "Franco C. "
     },
     {
-        nombre: "🍺Sergio C. "
+        nombre: "Sergio C. "
     },
     {
-        nombre: "🍺Alexandra G. "
+        nombre: "Alexandra G. "
     },
     {
-        nombre: "🍺David S. "
+        nombre: "David S. "
     },
     {
-        nombre: "🍺Diego C. "
+        nombre: "Diego C. "
     },
     {
-        nombre: "🍺Sergi V. "
+        nombre: "Sergi V. "
     },
     {
-        nombre: "🍺Abdulha I. "
+        nombre: "Abdulha I. "
     },
     {
-        nombre: "🍺Anya K. "
+        nombre: "Anya K. "
     },
     {
-        nombre: "🍺Armando M. "
+        nombre: "Armando M. "
     },
     {
-        nombre: "🍺Leah C. "
+        nombre: "Leah C. "
     },
     {
-        nombre: "🍺Andrés P. "
+        nombre: "Andrés P. "
     },
     {
-        nombre: "🍺Andrea C. "
+        nombre: "Andrea C. "
     },
     {
-        nombre: "🍺Jose Miguel. "
+        nombre: "Jose Miguel. "
     },
     {
-        nombre: "🍺Amr H. "
+        nombre: "Amr H. "
     },
     {
-        nombre: "🍺Jael M. "
+        nombre: "Jael M. "
     },
     {
-        nombre: "🍺Thierno S. "
+        nombre: "Thierno S. "
     },
     {
-        nombre: "🍺Berta L. "
+        nombre: "Berta L. "
     },
     {
-        nombre: "🍺Gabriela B. "
+        nombre: "Gabriela B. "
     },
     {
-        nombre: "🍺Nweke S. "
+        nombre: "Nweke S. "
     },
     {
-        nombre: "🍺Cris M. "
+        nombre: "Cris M. "
     },
     {
-        nombre: "🍺Snezhana S "
+        nombre: "Snezhana S "
     },
     {
-        nombre: "🍺Andrea S "
+        nombre: "Andrea S "
     },
     {
-        nombre: "🍺Martín M "
+        nombre: "Martín M "
     },
     {
-        nombre: "🍺Joan R "
+        nombre: "Joan R "
     },
     {
-        nombre: "🍺Gabriela P "
+        nombre: "Gabriela P "
     },
     
         

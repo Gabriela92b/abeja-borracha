@@ -108,4 +108,9 @@
     display: flex;
     align-items: center;
   }
+
+  .titulo {
+    margin: 90px;
+    font-size: 60px;
+  }
   }

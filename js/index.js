@@ -51,7 +51,7 @@ homePage.addEventListener('click', ()=>{
 function desplegarNombres () {
     let templateHTML = ""
     for(let i=0; i < listaCoders.length; i++) {
-    templateHTML += `<li>${listaCoders[i].nombre}</li>` 
+    templateHTML += `<li>🍺${listaCoders[i].nombre}</li>` 
     }
     document.getElementById("listaNombres").innerHTML = templateHTML;
 }
@@ -135,19 +135,16 @@ function cambioImagen2() {
 }
 
 // funcion añadir coder
-const añadirCoder = document.getElementById("botonAñadirCoder");
-añadirCoder.addEventListener('click', () => {
-    coderNuevo()
-})
 
+let añadirCoder = document.getElementById("botonCoder");
+añadirCoder.onclick = getInputValue
 
-function coderNuevo() {
-    const nuevoCoder = document.getElementById("añadirCoder").value;
-    const nuevaLista = listaCoders.slice();
-    listaCoders.push(nuevoCoder);
-
-    if (nuevaLista.length < listaCoders.length) {
-        desplegarNombres(nuevaLista);
-    }
+function getInputValue () {
+    let inputValue = document.getElementById("addCoder").value
+    listaCoders.push({nombre: inputValue})
+    desplegarNombres()
 }
+
+
+
 
