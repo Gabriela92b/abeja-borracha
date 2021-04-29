@@ -114,3 +114,11 @@
     font-size: 60px;
   }
   }
+
+  .imgCervezaVacia {
+    width: 60px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+  }

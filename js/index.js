@@ -17,6 +17,7 @@ let main3 = document.getElementById("mainPlay")
 let beer1 = document.getElementById("cervezaLlena")
 let beer2 = document.getElementById("cervezaVacia")
 
+
 // Eventlistener
 
 randomButton.addEventListener('click', () => {
@@ -141,8 +142,10 @@ añadirCoder.onclick = getInputValue
 
 function getInputValue () {
     let inputValue = document.getElementById("addCoder").value
+    if( inputValue != ""){
     listaCoders.push({nombre: inputValue})
     desplegarNombres()
+    }
 }
 
 
