@@ -28,6 +28,7 @@ randomButton.addEventListener('click', () => {
 killButton.addEventListener('click', () => {
     killCoder();
     cambioImagen()
+    audioimortal.play()
 })
 
 resetCoders.addEventListener('click', () => {
