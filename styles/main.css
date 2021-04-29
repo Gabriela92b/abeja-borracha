@@ -10,6 +10,7 @@ main {
   font-size: 30px;
   font-weight: 900;
   color: #ffb037;
+  text-shadow: 2px 5px 5px black;
 
 }
 
@@ -139,4 +140,12 @@ main {
   display: flex;
   align-items: center;
   
+}
+
+.imgCervezaVacia {
+  width: 56px;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 12px;
 }
