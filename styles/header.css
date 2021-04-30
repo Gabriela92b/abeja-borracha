@@ -19,8 +19,8 @@
 
 .navbar ul {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content:space-around;
+  align-items:center;
   cursor: pointer;
   font-size: 15px;
   font-weight: bold;
@@ -31,14 +31,21 @@
   text-decoration: none;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content:space-around;
  }
 
-.iconify {
-  width: 300px;
+.iconify[data-icon='feather-refresh-cw'] {
+  width: 80px;
+  height: 80px;
   margin-right: 10px;
+  margin-left: 10px;
 }
 
+.iconify[data-icon='mdi:text-box-remove-outline'] {
+  width: 90px;
+  height: 90px;
+  margin-left: 15px;
+}
 /* About Us page*/
 
 .about-us {
